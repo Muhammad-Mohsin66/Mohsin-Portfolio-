@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio of Muhammad Mohsin - Computer Science Student at COMSATS University Islamabad, Frontend & Backend Developer specializing in Python, FastAPI, PostgreSQL, JavaScript, and C++." />
+  <meta name="keywords"
+    content="Muhammad Mohsin, Portfolio, COMSATS, FastAPI, Python, PostgreSQL, Frontend Developer, Backend Developer, C++" />
+  <meta name="author" content="Muhammad Mohsin" />
+
+    <meta property="og:title" content="Muhammad Mohsin | Full Stack Developer & FastAPI Specialist" />
+  <meta property="og:description"
+    content="Computer Science Student at COMSATS University Islamabad. Frontend & Backend Developer specializing in Python, FastAPI, PostgreSQL, JavaScript, and C++." />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/177672207?v=4" />
+  <meta property="og:type" content="website" />
+
+  <title>Muhammad Mohsin | Full Stack & FastAPI Developer</title>
+
+    <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <canvas id="particles-canvas"></canvas>
+
+    <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-bottom-right"></div>
+
+    <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Portfolio Home">
+        <span class="brand-bracket">&lt;</span>MM<span class="brand-bracket">/&gt;</span>
+        <span class="brand-dot"></span>
+      </a>
+
+            <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+            <div class="nav-actions">
+        <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank" rel="noopener noreferrer"
+          class="btn btn-download">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+    <div class="mobile-nav-backdrop" id="mobileBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-links">
+      <a href="#about" class="mobile-nav-link"><i class="fas fa-user"></i> About</a>
+      <a href="#skills" class="mobile-nav-link"><i class="fas fa-code"></i> Skills</a>
+      <a href="#experience" class="mobile-nav-link"><i class="fas fa-briefcase"></i> Experience</a>
+      <a href="#education" class="mobile-nav-link"><i class="fas fa-graduation-cap"></i> Education</a>
+      <a href="#projects" class="mobile-nav-link"><i class="fas fa-laptop-code"></i> Projects</a>
+      <a href="#services" class="mobile-nav-link"><i class="fas fa-cubes"></i> Services</a>
+      <a href="#certifications" class="mobile-nav-link"><i class="fas fa-award"></i> Certifications</a>
+      <a href="#contact" class="mobile-nav-link"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+    <div class="mobile-nav-actions">
+      <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank" rel="noopener noreferrer"
+        class="btn btn-download btn-full">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn Profile</span>
+      </a>
+    </div>
+  </aside>
+
+  <main>
+        <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+                    <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              <span>Open to Work • Lahore &amp; Remote / Hybrid</span>
+            </div>
+
+            <p class="hero-greeting">Hello World, I'm</p>
+            <h1 class="hero-name">
+              <span class="gradient-text">Muhammad Mohsin</span>
+            </h1>
+
+            <div class="hero-typing-wrapper">
+              <span class="typing-prefix">&gt; </span>
+              <span class="typed-text" id="typed-text"></span>
+              <span class="cursor-blink">|</span>
+            </div>
+
+            <p class="hero-bio">
+              Computer Science student at COMSATS University Islamabad with hands-on internship experience across both
+              frontend and backend development. Specializing in Python (FastAPI), PostgreSQL, and modern responsive web
+              interfaces.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Work</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="https://github.com/Muhammad-Mohsin66" target="_blank" rel="noopener noreferrer"
+                class="btn btn-secondary">
+                <i class="fab fa-github"></i>
+                <span>GitHub Profile</span>
+              </a>
+              <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank" rel="noopener noreferrer"
+                class="btn btn-download">
+                <i class="fab fa-linkedin"></i>
+                <span>Connect on LinkedIn</span>
+              </a>
+            </div>
+
+                        <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number">
+                  <span class="counter" data-target="2">0</span><span class="stat-plus">+</span>
+                </div>
+                <div class="stat-label">Years Learning &amp; Dev</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">
+                  <span class="counter" data-target="2">0</span><span class="stat-plus"></span>
+                </div>
+                <div class="stat-label">Industry Internships</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">
+                  <span class="counter" data-target="100">0</span><span class="stat-plus">%</span>
+                </div>
+                <div class="stat-label">Engineering Dedication</div>
+              </div>
+            </div>
+          </div>
+
+                    <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <div class="avatar-glow-ring"></div>
+              <div class="avatar-border-ring">
+                <div class="avatar-image-box">
+                  <img src="assets/profile.jpg" alt="Muhammad Mohsin"
+                    onerror="this.src='https://avatars.githubusercontent.com/u/177672207?v=4';" />
+                                    <div class="avatar-placeholder-art" style="display:none;">
+                    <i class="fas fa-user-astronaut"></i>
+                    <span>// MOHSIN</span>
+                  </div>
+                </div>
+              </div>
+
+                            <div class="orbit-chip chip-1">
+                <i class="fab fa-python"></i>
+                <span>Python / FastAPI</span>
+              </div>
+              <div class="orbit-chip chip-2">
+                <i class="fab fa-js-square"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="orbit-chip chip-3">
+                <i class="fas fa-database"></i>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="orbit-chip chip-4">
+                <i class="fab fa-bootstrap"></i>
+                <span>Bootstrap &amp; CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div class="hero-wave-divider">
+        <svg viewBox="0 0 1440 80" fill="none" preserveAspectRatio="none">
+          <path
+            d="M0,32L80,42.7C160,53,320,75,480,69.3C640,64,800,32,960,26.7C1120,21,1280,43,1360,53.3L1440,64L1440,80L1360,80C1280,80,1120,80,960,80C800,80,640,80,480,80C320,80,160,80,80,80L0,80Z"
+            fill="rgba(17, 24, 39, 0.4)"></path>
+        </svg>
+      </div>
+    </section>
+
+        <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag"><i class="fas fa-terminal"></i> 01 // ABOUT_ME</span>
+          <h2 class="section-title">Engineering with <span class="gradient-text">Purpose & Precision</span></h2>
+          <p class="section-desc">A brief glimpse into who I am, my philosophy, and what drives my work.</p>
+        </div>
+
+        <div class="about-grid">
+                    <div class="about-narrative reveal-init">
+            <span class="about-intro-badge">// THE DEVELOPER JOURNEY</span>
+            <h3 class="about-lead">
+              Computer Science student at COMSATS University Islamabad with hands-on industry internship experience in
+              backend &amp; frontend engineering.
+            </h3>
+            <p class="about-p">
+              I am Muhammad Mohsin, a Computer Science student at COMSATS University Islamabad (Sahiwal Campus),
+              currently in my 7th semester. I have a strong interest and active foundation in software engineering,
+              backend API development, and modern responsive web systems.
+            </p>
+            <p class="about-p">
+              Over the past two years, I have gained hands-on practical experience through internships in both frontend
+              and backend development. At SerTechs, I focused on frontend web technologies including HTML, CSS,
+              Bootstrap, and JavaScript. Later, at Eraviya Solutions, I specialized in backend development with Python
+              and FastAPI, architecting and deploying modular project backends and integrating robust APIs with frontend
+              interfaces.
+            </p>
+            <p class="about-p">
+              My technical competencies include C, C++, Java, Python (FastAPI), PostgreSQL, and Web Development (HTML,
+              CSS, Bootstrap, JavaScript). I thrive on tackling algorithmic challenges, learning emerging technologies,
+              and delivering high-value solutions to real-world problems.
+            </p>
+
+                        <div class="about-info-grid">
+              <div class="info-point">
+                <i class="fas fa-university"></i>
+                <div class="info-point-text">
+                  <span>Education</span>
+                  <strong>COMSATS University (4th Sem)</strong>
+                </div>
+              </div>
+              <div class="info-point">
+                <i class="fas fa-map-pin"></i>
+                <div class="info-point-text">
+                  <span>Location</span>
+                  <strong>Sahiwal / Lahore, Pakistan</strong>
+                </div>
+              </div>
+              <div class="info-point">
+                <i class="fas fa-briefcase"></i>
+                <div class="info-point-text">
+                  <span>Availability</span>
+                  <strong>Internships &amp; Junior Roles</strong>
+                </div>
+              </div>
+              <div class="info-point">
+                <i class="fas fa-code-branch"></i>
+                <div class="info-point-text">
+                  <span>Specialization</span>
+                  <strong>FastAPI, Python &amp; Web Dev</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                    <div class="about-highlights-grid reveal-init">
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <i class="fab fa-python"></i>
+              </div>
+              <h4 class="highlight-title">FastAPI &amp; Backend APIs</h4>
+              <p class="highlight-desc">
+                Designing modular, asynchronous REST APIs with Python, FastAPI, and PostgreSQL for smooth, real-time
+                data flows.
+              </p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <i class="fab fa-html5"></i>
+              </div>
+              <h4 class="highlight-title">Responsive Frontend</h4>
+              <p class="highlight-desc">
+                Crafting pixel-perfect, cross-browser responsive interfaces utilizing HTML5, CSS3, Bootstrap, and
+                vanilla JavaScript.
+              </p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4 class="highlight-title">C++ &amp; Java Core</h4>
+              <p class="highlight-desc">
+                Deep academic foundation in object-oriented programming, data structures, algorithms, and computational
+                efficiency.
+              </p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h4 class="highlight-title">Practical Problem Solving</h4>
+              <p class="highlight-desc">
+                Demonstrated real-world experience across two software internships delivering client-focused web modules
+                on schedule.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag"><i class="fas fa-microchip"></i> 02 // TECH_STACK</span>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+          <p class="section-desc">Languages, frameworks, libraries, and tools I use to build world-class products.</p>
+        </div>
+
+        <div class="skills-categories-grid">
+                    <div class="skill-category-card reveal-init">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fab fa-python"></i>
+              </div>
+              <h3 class="skill-cat-title">Backend &amp; APIs</h3>
+            </div>
+            <div class="skill-pill-tags">
+              <span class="skill-pill" data-tooltip="Primary Backend Language"><i class="fab fa-python"></i>
+                Python</span>
+              <span class="skill-pill" data-tooltip="High-Performance Async Web Framework"><i class="fas fa-bolt"></i>
+                FastAPI</span>
+              <span class="skill-pill" data-tooltip="Relational Database at Eraviya Solutions"><i
+                  class="fas fa-database"></i> PostgreSQL</span>
+              <span class="skill-pill" data-tooltip="Modular REST Architecture"><i class="fas fa-network-wired"></i>
+                RESTful APIs</span>
+              <span class="skill-pill" data-tooltip="Asynchronous Background Processing"><i class="fas fa-gears"></i>
+                Background Jobs</span>
+              <span class="skill-pill" data-tooltip="Server-Side Architecture"><i class="fas fa-server"></i> Backend Web
+                Dev</span>
+            </div>
+          </div>
+
+                    <div class="skill-category-card reveal-init">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <h3 class="skill-cat-title">Frontend Development</h3>
+            </div>
+            <div class="skill-pill-tags">
+              <span class="skill-pill" data-tooltip="Dynamic Client-Side Scripting"><i class="fab fa-js"></i>
+                JavaScript</span>
+              <span class="skill-pill" data-tooltip="Responsive CSS Framework at SerTechs"><i
+                  class="fab fa-bootstrap"></i> Bootstrap</span>
+              <span class="skill-pill" data-tooltip="Semantic Web Markup"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="skill-pill" data-tooltip="Modern Styling & Layouts"><i class="fab fa-css3-alt"></i> Cascading
+                Style Sheets (CSS)</span>
+              <span class="skill-pill" data-tooltip="Mobile & Desktop Responsiveness"><i
+                  class="fas fa-mobile-screen"></i> Responsive Design</span>
+              <span class="skill-pill" data-tooltip="Consistent Multi-Browser Rendering"><i class="fas fa-globe"></i>
+                Cross-Browser UX</span>
+            </div>
+          </div>
+
+                    <div class="skill-category-card reveal-init">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="skill-cat-title">Core Programming</h3>
+            </div>
+            <div class="skill-pill-tags">
+              <span class="skill-pill" data-tooltip="Object-Oriented Programming @ COMSATS"><i class="fas fa-code"></i>
+                C++</span>
+              <span class="skill-pill" data-tooltip="Systems & Procedural Programming"><i class="fas fa-terminal"></i> C
+                Language</span>
+              <span class="skill-pill" data-tooltip="Object-Oriented Programming Fundamentals"><i
+                  class="fab fa-java"></i> Java</span>
+              <span class="skill-pill" data-tooltip="Algorithmic Foundations"><i class="fas fa-sitemap"></i> Data
+                Structures</span>
+              <span class="skill-pill" data-tooltip="Clean Code & Problem Solving"><i class="fas fa-brain"></i>
+                Algorithmic Logic</span>
+            </div>
+          </div>
+
+                    <div class="skill-category-card reveal-init">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-screwdriver-wrench"></i>
+              </div>
+              <h3 class="skill-cat-title">Tools &amp; Workflow</h3>
+            </div>
+            <div class="skill-pill-tags">
+              <span class="skill-pill" data-tooltip="Distributed Version Control"><i class="fab fa-git-alt"></i>
+                Git</span>
+              <span class="skill-pill" data-tooltip="Code Repositories & Collaboration"><i class="fab fa-github"></i>
+                GitHub</span>
+              <span class="skill-pill" data-tooltip="API Testing & Verification"><i class="fas fa-paper-plane"></i>
+                Postman</span>
+              <span class="skill-pill" data-tooltip="Relational Query Design"><i class="fas fa-table"></i> SQL
+                Queries</span>
+              <span class="skill-pill" data-tooltip="Command Line & Scripts"><i class="fas fa-terminal"></i> Terminal /
+                CLI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag"><i class="fas fa-briefcase"></i> 03 // CAREER_PATH</span>
+          <h2 class="section-title">Work &amp; <span class="gradient-text">Experience</span></h2>
+          <p class="section-desc">Key roles, contributions, and engineering milestones across industry teams.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+                    <div class="timeline-item reveal-init">
+            <div class="timeline-node">
+              <i class="fab fa-python"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Python FastAPI Intern</h3>
+                  <div class="timeline-meta">
+                    <span class="timeline-company-badge"><i class="fas fa-building"></i> Eraviya Solutions</span>
+                    <span><i class="far fa-calendar-alt"></i> Jun 2024 – Aug 2024</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Sahiwal Division, Pakistan · On-site</span>
+                  </div>
+                </div>
+              </div>
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Engineered and optimized high-performance backend REST APIs using Python and the FastAPI
+                    framework.</span>
+                </li>
+                <li class="timeline-bullet">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Designed, implemented, and deployed modular project architecture to ensure maintainable codebase
+                    progression.</span>
+                </li>
+                <li class="timeline-bullet">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Seamlessly integrated backend endpoints with frontend clients for reliable, low-latency data
+                    transmission.</span>
+                </li>
+                <li class="timeline-bullet">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Deepened expertise in PostgreSQL relational database schema management and asynchronous
+                    background job pipelines.</span>
+                </li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="timeline-tech-pill">Python</span>
+                <span class="timeline-tech-pill">FastAPI</span>
+                <span class="timeline-tech-pill">PostgreSQL</span>
+                <span class="timeline-tech-pill">REST APIs</span>
+                <span class="timeline-tech-pill">Background Jobs</span>
+              </div>
+            </div>
+          </div>
+
+                    <div class="timeline-item reveal-init">
+            <div class="timeline-node">
+              <i class="fab fa-html5"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Frontend Developer Intern</h3>
+                  <div class="timeline-meta">
+                    <span class="timeline-company-badge"><i class="fas fa-building"></i> SerTechs - Web Development
+                      Company</span>
+                    <span><i class="far fa-calendar-alt"></i> Jun 2024 – Aug 2024</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Sahiwal Division, Pakistan · On-site</span>
+                  </div>
+                </div>
+              </div>
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Developed clean, responsive, and cross-browser compatible web pages using HTML5, CSS3,
+                    Bootstrap, and JavaScript.</span>
+                </li>
+                <li class="timeline-bullet">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Collaborated closely with design and engineering teams to translate client requirements into
+                    fluid user experiences.</span>
+                </li>
+                <li class="timeline-bullet">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Implemented responsive layout strategies ensuring optimal performance on mobile, tablet, and
+                    desktop screens.</span>
+                </li>
+                <li class="timeline-bullet">
+                  <i class="fas fa-circle-check"></i>
+                  <span>Applied modern frontend best practices, semantic structure, and accessible web standards across
+                    client deliverables.</span>
+                </li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="timeline-tech-pill">HTML5</span>
+                <span class="timeline-tech-pill">CSS3</span>
+                <span class="timeline-tech-pill">Bootstrap</span>
+                <span class="timeline-tech-pill">JavaScript</span>
+                <span class="timeline-tech-pill">Responsive Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="section education" id="education">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag"><i class="fas fa-graduation-cap"></i> 04 // ACADEMICS</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Credentials</span></h2>
+          <p class="section-desc">Academic foundation, degrees, coursework, and technical training.</p>
+        </div>
+
+        <div class="education-grid">
+                    <div class="edu-card reveal-init">
+            <div class="edu-icon-badge">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="edu-period">Aug 2023 – May 2027 (Expected)</div>
+            <h3 class="edu-degree">Bachelor of Science in Computer Science (BS CS)</h3>
+            <div class="edu-institution">
+              <i class="fas fa-university"></i>
+              <span>COMSATS University Islamabad (Sahiwal Campus)</span>
+            </div>
+            <p class="edu-desc">
+              Currently in 4th Semester. Core coursework in computing fundamentals, procedural and object-oriented
+              programming, data structures, algorithms, and web technologies.
+            </p>
+            <div class="edu-coursework-title">Acquired Competencies</div>
+            <div class="edu-tags">
+              <span class="edu-tag">C++</span>
+              <span class="edu-tag">C Language</span>
+              <span class="edu-tag">Object-Oriented Programming</span>
+              <span class="edu-tag">Data Structures</span>
+              <span class="edu-tag">Database Systems</span>
+              <span class="edu-tag">Computer Architecture</span>
+            </div>
+          </div>
+
+                    <div class="edu-card reveal-init">
+            <div class="edu-icon-badge">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <div class="edu-period">Jan 2021 – Aug 2023</div>
+            <h3 class="edu-degree">Chartered Accountant (CA Studies)</h3>
+            <div class="edu-institution">
+              <i class="fas fa-building-columns"></i>
+              <span>Rise School of Accountancy</span>
+            </div>
+            <p class="edu-desc">
+              Extensive analytical training in financial accounting, quantitative methods, commercial law, and
+              analytical problem-solving.
+            </p>
+            <div class="edu-coursework-title">Key Areas</div>
+            <div class="edu-tags">
+              <span class="edu-tag">Financial Accounting</span>
+              <span class="edu-tag">Quantitative Methods</span>
+              <span class="edu-tag">Business Analysis</span>
+              <span class="edu-tag">Auditing Principles</span>
+            </div>
+          </div>
+
+                    <div class="edu-card reveal-init">
+            <div class="edu-icon-badge">
+              <i class="fas fa-atom"></i>
+            </div>
+            <div class="edu-period">Mar 2018 – May 2020</div>
+            <h3 class="edu-degree">Intermediate, Pre-Engineering (FSc)</h3>
+            <div class="edu-institution">
+              <i class="fas fa-school"></i>
+              <span>Government Post Graduate College Sahiwal</span>
+            </div>
+            <p class="edu-desc">
+              Completed Higher Secondary School Certificate with Grade A, establishing rigorous foundations in advanced
+              Mathematics, Physics, and Chemistry.
+            </p>
+            <div class="edu-coursework-title">Academic Standing</div>
+            <div class="edu-tags">
+              <span class="edu-tag">Grade: A</span>
+              <span class="edu-tag">Mathematics</span>
+              <span class="edu-tag">Physics</span>
+              <span class="edu-tag">Analytical Science</span>
+            </div>
+          </div>
+
+                    <div class="edu-card reveal-init">
+            <div class="edu-icon-badge">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="edu-period">Mar 2016 – Feb 2018</div>
+            <h3 class="edu-degree">Matriculation (Science)</h3>
+            <div class="edu-institution">
+              <i class="fas fa-school-flag"></i>
+              <span>Misali Zakariya Science Secondary School Kamir</span>
+            </div>
+            <p class="edu-desc">
+              Completed Secondary School Certificate with distinction (Grade A+), recognized for outstanding academic
+              performance in science and mathematics.
+            </p>
+            <div class="edu-coursework-title">Academic Standing</div>
+            <div class="edu-tags">
+              <span class="edu-tag">Grade: A+ (Distinction)</span>
+              <span class="edu-tag">General Science</span>
+              <span class="edu-tag">Mathematics</span>
+              <span class="edu-tag">Biology</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag"><i class="fas fa-laptop-code"></i> 05 // PORTFOLIO</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-desc">A curated selection of production apps, open-source repositories, and experiments.</p>
+        </div>
+
+                <div class="projects-filter reveal-init">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="frontend">Frontend &amp; Web</button>
+          <button class="filter-btn" data-filter="backend">Backend &amp; FastAPI</button>
+          <button class="filter-btn" data-filter="core">C++ &amp; Systems</button>
+        </div>
+
+                <div class="projects-grid" id="projectsGrid">
+
+                    <article class="project-card reveal-init" data-category="frontend">
+            <div class="project-preview">
+              <div class="project-preview-mockup">
+                <i class="fas fa-burger project-mockup-icon"></i>
+              </div>
+              <span class="project-cat-badge">Web Application</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Cheezka — Online Fast Food Platform</h3>
+              <p class="project-desc">
+                Interactive online fast food digital ordering platform featuring a dynamic responsive menu, clean
+                product presentations, smooth cart interactions, and modern web styling deployed on Vercel.
+              </p>
+              <div class="project-tech-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">HTML5</span>
+                <span class="project-tag">CSS3</span>
+                <span class="project-tag">Vercel</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Muhammad-Mohsin66/Cheezka" target="_blank" rel="noopener noreferrer"
+                  class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <a href="https://cheezka.vercel.app" target="_blank" rel="noopener noreferrer"
+                  class="project-link live">
+                  <span>Live Website</span>
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+                    <article class="project-card reveal-init" data-category="backend">
+            <div class="project-preview">
+              <div class="project-preview-mockup">
+                <i class="fas fa-server project-mockup-icon"></i>
+              </div>
+              <span class="project-cat-badge">Backend &amp; APIs</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">FastAPI Modular Backend Services</h3>
+              <p class="project-desc">
+                High-performance asynchronous backend services developed at Eraviya Solutions featuring PostgreSQL
+                relational data models, structured RESTful endpoints, data validation, and background workers.
+              </p>
+              <div class="project-tech-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">PostgreSQL</span>
+                <span class="project-tag">REST APIs</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Muhammad-Mohsin66" target="_blank" rel="noopener noreferrer"
+                  class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub Profile</span>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank"
+                  rel="noopener noreferrer" class="project-link live">
+                  <span>Experience Details</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+                    <article class="project-card reveal-init" data-category="frontend">
+            <div class="project-preview">
+              <div class="project-preview-mockup">
+                <i class="fas fa-pizza-slice project-mockup-icon"></i>
+              </div>
+              <span class="project-cat-badge">Web Application</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Pizza Zone Cafe Web Platform</h3>
+              <p class="project-desc">
+                Dynamic cafe and restaurant web showcase featuring responsive menu navigation, clean food card layouts,
+                modern typography, and customer-focused mobile responsiveness.
+              </p>
+              <div class="project-tech-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Bootstrap</span>
+                <span class="project-tag">HTML5</span>
+                <span class="project-tag">CSS3</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Muhammad-Mohsin66/Pizza-Zone-cafe" target="_blank" rel="noopener noreferrer"
+                  class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <a href="https://github.com/Muhammad-Mohsin66" target="_blank" rel="noopener noreferrer"
+                  class="project-link live">
+                  <span>View Project</span>
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+                    <article class="project-card reveal-init" data-category="frontend">
+            <div class="project-preview">
+              <div class="project-preview-mockup">
+                <i class="fas fa-desktop project-mockup-icon"></i>
+              </div>
+              <span class="project-cat-badge">Client Solutions</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Responsive Client Portals (SerTechs)</h3>
+              <p class="project-desc">
+                Commercial web interfaces engineered during internship at SerTechs, focusing on UI/UX excellence,
+                cross-browser compatibility, and client-centric usability standards.
+              </p>
+              <div class="project-tech-tags">
+                <span class="project-tag">HTML5</span>
+                <span class="project-tag">Bootstrap</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">CSS3</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Muhammad-Mohsin66" target="_blank" rel="noopener noreferrer"
+                  class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub Profile</span>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank"
+                  rel="noopener noreferrer" class="project-link live">
+                  <span>Internship Story</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+                    <article class="project-card reveal-init" data-category="core">
+            <div class="project-preview">
+              <div class="project-preview-mockup">
+                <i class="fas fa-network-wired project-mockup-icon"></i>
+              </div>
+              <span class="project-cat-badge">Algorithms &amp; Systems</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">C++ Data Structures &amp; Algorithms Suite</h3>
+              <p class="project-desc">
+                Implementation of essential computer science data structures (Linked Lists, Stacks, Queues, Binary
+                Search Trees, and Graph Traversal algorithms) optimized for runtime performance.
+              </p>
+              <div class="project-tech-tags">
+                <span class="project-tag">C++</span>
+                <span class="project-tag">C Language</span>
+                <span class="project-tag">Data Structures</span>
+                <span class="project-tag">Algorithms</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Muhammad-Mohsin66" target="_blank" rel="noopener noreferrer"
+                  class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>View on GitHub</span>
+                </a>
+                <a href="#skills" class="project-link live">
+                  <span>Tech Stack</span>
+                  <i class="fas fa-code"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+                    <article class="project-card reveal-init" data-category="core">
+            <div class="project-preview">
+              <div class="project-preview-mockup">
+                <i class="fas fa-database project-mockup-icon"></i>
+              </div>
+              <span class="project-cat-badge">OOP &amp; Java</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Student Record &amp; System Manager</h3>
+              <p class="project-desc">
+                Object-oriented software application built with Java and C++ featuring file I/O persistence, input
+                validation, modular class hierarchies, and administrative search filters.
+              </p>
+              <div class="project-tech-tags">
+                <span class="project-tag">Java</span>
+                <span class="project-tag">C++</span>
+                <span class="project-tag">File Handling</span>
+                <span class="project-tag">OOP</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Muhammad-Mohsin66" target="_blank" rel="noopener noreferrer"
+                  class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>View on GitHub</span>
+                </a>
+                <a href="#about" class="project-link live">
+                  <span>COMSATS Studies</span>
+                  <i class="fas fa-graduation-cap"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+        <section class="section services" id="services">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag"><i class="fas fa-cubes"></i> 06 // EXPERTISE</span>
+          <h2 class="section-title">What I <span class="gradient-text">Deliver</span></h2>
+          <p class="section-desc">Tailored technical solutions designed for speed, modern usability, and robust
+            engineering.</p>
+        </div>
+
+        <div class="services-grid">
+                    <div class="service-card reveal-init">
+            <div class="service-icon-box">
+              <i class="fab fa-python"></i>
+            </div>
+            <h3 class="service-title">FastAPI &amp; Backend APIs</h3>
+            <p class="service-desc">
+              Designing modular, high-throughput asynchronous RESTful backend APIs with Python and FastAPI. Clean data
+              modeling and secure endpoint integration.
+            </p>
+            <div class="service-features-list">
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Asynchronous RESTful Endpoints</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Background Tasks &amp; API Workers</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Modular Project Architecture</div>
+            </div>
+          </div>
+
+                    <div class="service-card reveal-init">
+            <div class="service-icon-box">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3 class="service-title">Responsive Web Development</h3>
+            <p class="service-desc">
+              Transforming design concepts into clean, accessible, mobile-first web pages utilizing HTML5, CSS3,
+              Bootstrap, and dynamic vanilla JavaScript.
+            </p>
+            <div class="service-features-list">
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Mobile, Tablet &amp; Desktop Optimized
+              </div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Cross-Browser Consistency</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Interactive UI Components</div>
+            </div>
+          </div>
+
+                    <div class="service-card reveal-init">
+            <div class="service-icon-box">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="service-title">PostgreSQL &amp; Database Design</h3>
+            <p class="service-desc">
+              Architecting relational database schemas, handling migrations, optimizing SQL queries, and integrating
+              persistent storage with backend microservices.
+            </p>
+            <div class="service-features-list">
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Relational Schema Design</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> CRUD Operations &amp; Transactions</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Database Optimization</div>
+            </div>
+          </div>
+
+                    <div class="service-card reveal-init">
+            <div class="service-icon-box">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <h3 class="service-title">Frontend &amp; API Integration</h3>
+            <p class="service-desc">
+              Bridging frontend user interfaces with backend API data flows for smooth, asynchronous client-server
+              communication without page reloads.
+            </p>
+            <div class="service-features-list">
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Asynchronous Fetch &amp; Promises</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Real-time UI State Synchronization</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Form Validation &amp; Error Handling
+              </div>
+            </div>
+          </div>
+
+                    <div class="service-card reveal-init">
+            <div class="service-icon-box">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="service-title">C++ &amp; Java Programming</h3>
+            <p class="service-desc">
+              Implementing fundamental computer science algorithms, object-oriented software patterns, and structured
+              data handling routines.
+            </p>
+            <div class="service-features-list">
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Object-Oriented Architecture</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Algorithmic Complexity Management</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Robust Unit Level Testing</div>
+            </div>
+          </div>
+
+                    <div class="service-card reveal-init">
+            <div class="service-icon-box">
+              <i class="fas fa-gauge-high"></i>
+            </div>
+            <h3 class="service-title">UI/UX &amp; Website Refinement</h3>
+            <p class="service-desc">
+              Refining existing websites for visual appeal, interactive transitions, loading performance, and clean
+              maintainable code.
+            </p>
+            <div class="service-features-list">
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Modern Aesthetic Enhancements</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Code Cleanup &amp; Refactoring</div>
+              <div class="service-feature"><i class="fas fa-check-circle"></i> Deployment to Vercel / Cloud</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="section certifications" id="certifications">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag"><i class="fas fa-award"></i> 07 // RECOGNITION</span>
+          <h2 class="section-title">Achievements &amp; <span class="gradient-text">Activities</span></h2>
+          <p class="section-desc">Community hackathons, academic distinctions, and verified engineering experience.</p>
+        </div>
+
+        <div class="certs-achievements-wrapper">
+                    <div class="certs-list">
+                        <div class="cert-card reveal-init">
+              <div class="cert-badge-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="cert-details">
+                <h3 class="cert-title">GitHub 404NotHack Participant</h3>
+                <div class="cert-issuer">KlattsonTechCommunity &amp; GitHub</div>
+                <div class="cert-meta">Activity: Developer Community Hackathon &amp; Networking</div>
+              </div>
+              <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank" rel="noopener noreferrer"
+                class="cert-link" title="View LinkedIn Post">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+                        <div class="cert-card reveal-init">
+              <div class="cert-badge-icon">
+                <i class="fab fa-python"></i>
+              </div>
+              <div class="cert-details">
+                <h3 class="cert-title">Python FastAPI Internship Experience</h3>
+                <div class="cert-issuer">Eraviya Solutions</div>
+                <div class="cert-meta">Completed: Aug 2024 • Focus: Backend APIs &amp; PostgreSQL</div>
+              </div>
+              <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank" rel="noopener noreferrer"
+                class="cert-link" title="Verify on LinkedIn">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+                        <div class="cert-card reveal-init">
+              <div class="cert-badge-icon">
+                <i class="fab fa-bootstrap"></i>
+              </div>
+              <div class="cert-details">
+                <h3 class="cert-title">Frontend Developer Internship Experience</h3>
+                <div class="cert-issuer">SerTechs - Web Development Company</div>
+                <div class="cert-meta">Completed: Aug 2024 • Focus: HTML, CSS, Bootstrap, JavaScript</div>
+              </div>
+              <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank" rel="noopener noreferrer"
+                class="cert-link" title="Verify on LinkedIn">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+                    <div class="achievements-column">
+                        <div class="achievement-card reveal-init">
+              <div class="achievement-header">
+                <div class="achievement-icon">
+                  <i class="fas fa-medal"></i>
+                </div>
+                <h4 class="achievement-title">Grade A+ Distinction in Matriculation</h4>
+              </div>
+              <p class="achievement-desc">
+                Awarded Grade A+ distinction from Misali Zakariya Science Secondary School for academic excellence
+                across science and mathematics.
+              </p>
+            </div>
+
+                        <div class="achievement-card reveal-init">
+              <div class="achievement-header">
+                <div class="achievement-icon">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h4 class="achievement-title">Grade A in Pre-Engineering (FSc)</h4>
+              </div>
+              <p class="achievement-desc">
+                Graduated with Grade A in Pre-Engineering from Government Post Graduate College Sahiwal, establishing
+                strong analytical foundations.
+              </p>
+            </div>
+
+                        <div class="achievement-card reveal-init">
+              <div class="achievement-header">
+                <div class="achievement-icon">
+                  <i class="fas fa-university"></i>
+                </div>
+                <h4 class="achievement-title">COMSATS Computer Science Standing</h4>
+              </div>
+              <p class="achievement-desc">
+                Active 4th semester student at COMSATS University Islamabad (Sahiwal Campus) with strong practical focus
+                on programming and software engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag"><i class="fas fa-paper-plane"></i> 08 // CONNECT</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-desc">Have an opportunity, internship, project, or want to collaborate? Let's connect.</p>
+        </div>
+
+        <div class="contact-grid">
+                    <div class="contact-info-panel reveal-init">
+            <h3 class="contact-callout">
+              Open for software development opportunities &amp; collaborations.
+            </h3>
+            <p class="contact-subtext">
+              I am actively seeking software internships, junior frontend/backend roles, and innovative engineering
+              projects in Lahore and remote/hybrid worldwide.
+            </p>
+
+            <div class="contact-channels">
+                            <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank" rel="noopener noreferrer"
+                class="contact-channel-item">
+                <div class="channel-icon-box">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="channel-info">
+                  <strong>LinkedIn Profile</strong>
+                  <span>muhammad-mohsin-a5b2481b9</span>
+                </div>
+              </a>
+
+                            <a href="https://github.com/Muhammad-Mohsin66" target="_blank" rel="noopener noreferrer"
+                class="contact-channel-item">
+                <div class="channel-icon-box">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="channel-info">
+                  <strong>GitHub Profile</strong>
+                  <span>Muhammad-Mohsin66</span>
+                </div>
+              </a>
+
+                            <div class="contact-channel-item">
+                <div class="channel-icon-box">
+                  <i class="fas fa-map-location-dot"></i>
+                </div>
+                <div class="channel-info">
+                  <strong>Location &amp; University</strong>
+                  <span>Sahiwal Division, Punjab, Pakistan • COMSATS</span>
+                </div>
+              </div>
+
+                            <div class="contact-channel-item">
+                <div class="channel-icon-box">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="channel-info">
+                  <strong>Work Preference</strong>
+                  <span>Lahore / On-site, Hybrid &amp; Remote</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                    <div class="contact-form-card reveal-init">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="formName" class="form-label">Your Name *</label>
+                  <input type="text" id="formName" class="form-input" placeholder="e.g. Alex Morgan" required />
+                </div>
+                <div class="form-group">
+                  <label for="formEmail" class="form-label">Your Email *</label>
+                  <input type="email" id="formEmail" class="form-input" placeholder="e.g. alex@company.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="formSubject" class="form-label">Subject</label>
+                <input type="text" id="formSubject" class="form-input"
+                  placeholder="Internship Opportunity / Project Inquiry" />
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Message *</label>
+                <textarea id="formMessage" class="form-textarea"
+                  placeholder="Hi Muhammad Mohsin, I would like to connect regarding..." required></textarea>
+              </div>
+
+              <div id="formToast" class="form-toast"></div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-brand">
+            <span class="brand-bracket">&lt;</span>MM<span class="brand-bracket">/&gt;</span>
+            <span class="brand-dot"></span>
+          </a>
+          <p class="footer-tagline">
+            Muhammad Mohsin • Computer Science Student @ COMSATS &amp; Full Stack Developer specializing in FastAPI,
+            Python, and modern web interfaces.
+          </p>
+        </div>
+
+        <div class="footer-social-links">
+          <a href="https://github.com/Muhammad-Mohsin66" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" aria-label="GitHub Profile">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-mohsin-a5b2481b9" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" aria-label="LinkedIn Profile">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://cheezka.vercel.app" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="Cheezka Live Project">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="currentYear"></span> Muhammad Mohsin. All rights reserved. Built with precision &amp;
+          passion.
+        </p>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top of page">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+    <script src="canvas-bg.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
