@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Thank you, ${name}! Your message has been prepared. Opening your direct mail client...`
       );
 
-      const mailtoUrl = `mailto:contact@muhammadmohsin.dev?subject=${encodeURIComponent(
+      const mailtoUrl = `mailto:mohsinkamboh4321@gmail.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(`Hi Muhammad Mohsin,\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
 
